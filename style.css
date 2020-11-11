@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+  }
+  
+  .flag {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; 
+  }
+    .flag.france {
+    padding-top: 66.66%;
+  }
+  
+  .stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .france .stripe {
+    display: inline-block;
+    width: 33.33%;
+    height: 100%;
+  }
+  
+  .france .blue {
+    background-color: #002495;
+  }
+  
+  .france .white {
+    background-color: #FFFFFF;
+  }
+  
+  .france .red {
+    background-color: #ED2938;
+  }
+  
+  .flag.germany {
+    padding-top: 60%;
+  }
+  
+  
+  .germany .stripe {
+    width: 100%;
+    height: 33.33%;
+  }
+  
+  .germany .black {
+    background-color: #000000
+  }
+  
+  .germany .red {
+    background-color: #DE0002;
+  }
+  
+  .germany .yellow {
+    background-color: #FFCE00;
+  }
+  
+  .flag.madagascar {
+    padding-top: 66.66%;
+  }
+  
+  .stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .madagascar .column {
+    display: inline-block;
+  }
+  
+  #column-1 {
+    width: 33.33%;
+    height: 100%;
+  }
+  
+  #column-1 .stripe {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #column-2 {
+    width: 66.66%;
+    height: 100%;
+  }
+  
+  #column-2 .stripe {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .madagascar .green {
+    background-color: #007E39;
+  }
+  
+  .madagascar .white {
+    background-color: #FFFFFF;
+  }
+  
+  .madagascar .red {
+    background-color: #FC3E32;
+  }
+  
+  .flag.switzerland {
+    background-color: #FF0002;
+    padding-top: 100%;
+    position: relative;
+  }
+  
+  .switzerland .white {
+    background-color: #FFFFFF;
+  }
+  
+  .switzerland .vertical-stripe {
+    height: 50%;
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+  }
+  
+  .switzerland .horizontal-stripe {
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+  
+  .flag.japan {
+    background-color: white;
+    padding-top: 66.66%;
+    position: relative;
+  }
+  
+  .japan .circle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
